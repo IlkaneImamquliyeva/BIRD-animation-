@@ -1,0 +1,222 @@
+*, body {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+.ayaq {
+  position: absolute;
+  top: 550px;
+  left: 600px;
+  width: 2%;
+  height: 66px;
+  -webkit-clip-path: polygon(4% 19%, 14% 60%, 23% 86%, 27% 100%, 49% 99%, 100% 96%, 100% 78%, 45% 80%, 34% 26%, 59% 18%, 56% 2%, 35% 9%);
+          clip-path: polygon(4% 19%, 14% 60%, 23% 86%, 27% 100%, 49% 99%, 100% 96%, 100% 78%, 45% 80%, 34% 26%, 59% 18%, 56% 2%, 35% 9%);
+  background-color: #5cdbd1;
+  -webkit-animation-name: ayaq;
+          animation-name: ayaq;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes ayaq {
+  from {
+    bottom: 0%;
+  }
+  to {
+    top: 383px;
+  }
+}
+
+@keyframes ayaq {
+  from {
+    bottom: 0%;
+  }
+  to {
+    top: 383px;
+  }
+}
+
+.beden {
+  width: 20%;
+  height: 110px;
+  background-color: #ee5a5a;
+  -webkit-clip-path: circle(38.7% at 48% 24%);
+          clip-path: circle(38.7% at 48% 24%);
+  position: absolute;
+  top: 285px;
+  left: 500px;
+  -webkit-transform: rotate(347deg);
+          transform: rotate(347deg);
+}
+
+.quyruq {
+  position: absolute;
+  top: 252px;
+  right: 440px;
+  width: 10%;
+  height: 120px;
+  background-color: black;
+  -webkit-clip-path: polygon(92% 31%, 0 59%, 100% 68%);
+          clip-path: polygon(92% 31%, 0 59%, 100% 68%);
+  -webkit-animation-name: quyruq;
+          animation-name: quyruq;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes quyruq {
+  from {
+    right: 15%;
+  }
+  to {
+    right: 739px;
+  }
+}
+
+@keyframes quyruq {
+  from {
+    right: 15%;
+  }
+  to {
+    right: 739px;
+  }
+}
+
+.qanad {
+  position: absolute;
+  top: 45px;
+  left: 520px;
+  width: 19%;
+  height: 130px;
+  background-color: #a58888;
+  -webkit-clip-path: circle(30% at 38% 0);
+          clip-path: circle(30% at 38% 0);
+  -webkit-transform: rotate(347deg);
+          transform: rotate(347deg);
+  -webkit-animation-name: qanad;
+          animation-name: qanad;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes qanad {
+  from {
+    top: 4%;
+  }
+  to {
+    top: 282px;
+  }
+}
+
+@keyframes qanad {
+  from {
+    top: 4%;
+  }
+  to {
+    top: 282px;
+  }
+}
+
+.dimdik {
+  position: absolute;
+  bottom: -550px;
+  right: 582px;
+  width: 11%;
+  height: 162px;
+  -webkit-clip-path: ellipse(18% 5% at 45% 100%);
+          clip-path: ellipse(18% 5% at 45% 100%);
+  background-color: #df8106;
+  -webkit-transform: rotate(-21deg);
+          transform: rotate(-21deg);
+  -webkit-animation-name: dimdik;
+          animation-name: dimdik;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes dimdik {
+  from {
+    top: 600px;
+  }
+  to {
+    top: 130px;
+  }
+}
+
+@keyframes dimdik {
+  from {
+    top: 600px;
+  }
+  to {
+    top: 130px;
+  }
+}
+
+.bas {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  top: 235px;
+  left: 20px;
+  -webkit-clip-path: ellipse(50% 50% at 50% 50%);
+          clip-path: ellipse(50% 50% at 50% 50%);
+  -webkit-animation-name: bas;
+          animation-name: bas;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bas {
+  from {
+    left: 15%;
+  }
+  to {
+    left: 48%;
+  }
+}
+
+@keyframes bas {
+  from {
+    left: 15%;
+  }
+  to {
+    left: 48%;
+  }
+}
+
+.bas .goz {
+  width: 25%;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  -webkit-clip-path: ellipse(50% 50% at 50% 50%);
+          clip-path: ellipse(50% 50% at 50% 50%);
+}
+
+.bas .goz .bebek {
+  width: 35%;
+  height: 35%;
+  background-color: black;
+  position: absolute;
+  top: 29%;
+  left: 45%;
+  -webkit-clip-path: ellipse(50% 50% at 50% 50%);
+          clip-path: ellipse(50% 50% at 50% 50%);
+}
+/*# sourceMappingURL=main.css.map */
